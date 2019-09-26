@@ -1,0 +1,17 @@
+{
+  "name": "task-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "fifo": "node fifo-task-event-handler.js",
+    "round-robin": "node round-robin-task-event-handler.js",
+    "balanced-round-robin": "node balanced-round-robin-task-event-handler.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.3.2"
+  }
+}
